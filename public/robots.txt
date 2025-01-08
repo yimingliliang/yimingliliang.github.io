@@ -58,7 +58,7 @@ Allow: /*.png$
 Allow: /*.webp$
 
 # Sitemap
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://gly-hub.github.io/ai-nav-site/sitemap.xml
 
 # Host
-Host: https://your-domain.com 
+Host: https://gly-hub.github.io/ai-nav-site 
