@@ -1,0 +1,810 @@
+{
+    "categories": [
+        {
+            "id": "hot",
+            "name": "热门推荐",
+            "icon": "M12 0c-3 4.1-5 7.4-5 10.8 0 2.4 1.1 4.4 2.6 5.3.5.3 1.1-.3.9-.8-.7-1.6-.4-3.3.8-4.7.9 1.8 2.3 3.2 4.2 4-.2-2.5-.1-5 .7-7.3.2-.5.9-.5 1.1 0 .7 2.1 1.1 4.3.8 6.6 1.8.2 3.2-.6 3.9-2.1.3-.7-.2-1.2-.7-.9-.7.4-1.5.5-2.3.2 1.1-1.9 2.6-3.4 4-4.7-1.3-.8-2.7-1.2-4.2-1.2-1.6 0-3.2.5-4.5 1.3.1-1.1.4-2.1.9-3.2-1.2-.6-2.2-1.8-2.2-3.3z",
+            "sites": [
+                {
+                    "title": "Midjourney",
+                    "url": "https://www.midjourney.com",
+                    "description": "目前最强的AI绘画工具",
+                    "icon": "https://www.midjourney.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "绘画",
+                        "热门"
+                    ]
+                },
+                {
+                    "title": "ChatGPT",
+                    "url": "https://chat.openai.com",
+                    "description": "地表最强AI聊天机器人",
+                    "icon": "https://chat.openai.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "对话",
+                        "热门"
+                    ]
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "url": "https://stability.ai",
+                    "description": "最强开源AI绘画工具",
+                    "icon": "https://stability.ai/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "绘画",
+                        "开源"
+                    ]
+                },
+                {
+                    "title": "Claude",
+                    "url": "https://claude.ai",
+                    "description": "Anthropic 出品的强大 AI 助手",
+                    "icon": "https://claude.ai/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "对话",
+                        "助手"
+                    ]
+                },
+                {
+                    "title": "Runway",
+                    "url": "https://runwayml.com",
+                    "description": "最强的AI视频内容生成工具",
+                    "icon": "https://runwayml.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "视频",
+                        "创作"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-draw",
+            "name": "AI 绘画",
+            "icon": "M15.5 14l-3 3v4h4l3-3-4-4z M18.5 11l1-1c.5-.5.5-1 0-1.5l-1.5-1.5c-.5-.5-1-.5-1.5 0l-1 1 3 3z M2 20h8l10-10-4-4L6 16H2v4z",
+            "sites": [
+                {
+                    "title": "Midjourney",
+                    "url": "https://www.midjourney.com",
+                    "description": "目前最强的AI绘画工具",
+                    "icon": "https://www.midjourney.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "绘画",
+                        "艺术"
+                    ]
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "url": "https://stability.ai",
+                    "description": "最强开源AI绘画工具",
+                    "icon": "https://stability.ai/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "绘画",
+                        "开源"
+                    ]
+                },
+                {
+                    "title": "DALL·E 2",
+                    "url": "https://openai.com/dall-e-2",
+                    "description": "OpenAI 出品的AI绘画工具",
+                    "icon": "https://openai.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "绘画",
+                        "OpenAI"
+                    ]
+                },
+                {
+                    "title": "Civitai",
+                    "url": "https://civitai.com",
+                    "description": "AI艺术共享平台，海量SD开源模型",
+                    "icon": "https://civitai.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "模型",
+                        "社区"
+                    ]
+                },
+                {
+                    "title": "Leonardo.ai",
+                    "url": "https://leonardo.ai",
+                    "description": "AI绘图社区，训练自己的游戏资产模型",
+                    "icon": "https://leonardo.ai/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "绘画",
+                        "游戏"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-chat",
+            "name": "AI 对话",
+            "icon": "M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z",
+            "sites": [
+                {
+                    "title": "ChatGPT",
+                    "url": "https://chat.openai.com",
+                    "description": "地表最强AI聊天机器人",
+                    "icon": "https://chat.openai.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "对话",
+                        "GPT"
+                    ]
+                },
+                {
+                    "title": "Claude",
+                    "url": "https://claude.ai",
+                    "description": "Anthropic 出品的强大 AI 助手",
+                    "icon": "https://claude.ai/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "对话",
+                        "助手"
+                    ]
+                },
+                {
+                    "title": "文心一言",
+                    "url": "https://yiyan.baidu.com",
+                    "description": "百度出品的AI对话模型",
+                    "icon": "https://www.baidu.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "对话",
+                        "百度"
+                    ]
+                },
+                {
+                    "title": "通义千问",
+                    "url": "https://qianwen.aliyun.com",
+                    "description": "阿里巴巴的AI对话机器人",
+                    "icon": "https://www.aliyun.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "对话",
+                        "阿里"
+                    ]
+                },
+                {
+                    "title": "Google Bard",
+                    "url": "https://bard.google.com",
+                    "description": "谷歌最新的AI对话模型",
+                    "icon": "https://www.google.com/favicon.ico",
+                    "tags": [
+                        "AI",
+                        "对话",
+                        "谷歌"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-prompt",
+            "name": "AI 提示词",
+            "icon": "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z M11 7h2v2h-2V7z M7 7h2v2H7V7z M15 7h2v2h-2V7z M7 11h10v2H7v-2z",
+            "sites": [
+                {
+                    "title": "PromptHero",
+                    "url": "https://prompthero.com",
+                    "description": "AI提示词分享和探索平台",
+                    "icon": "https://prompthero.com/favicon.ico",
+                    "tags": [
+                        "提示词",
+                        "分享",
+                        "社区"
+                    ]
+                },
+                {
+                    "title": "MJ Prompt Tool",
+                    "url": "https://prompt.noonshot.com",
+                    "description": "Midjourney提示词生成工具",
+                    "icon": "https://prompt.noonshot.com/favicon.ico",
+                    "tags": [
+                        "MJ",
+                        "提示词",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "Learning Prompt",
+                    "url": "https://learningprompt.wiki",
+                    "description": "提示词学习导航",
+                    "icon": "https://learningprompt.wiki/favicon.ico",
+                    "tags": [
+                        "教程",
+                        "提示词",
+                        "学习"
+                    ]
+                },
+                {
+                    "title": "Prompt Hunt",
+                    "url": "https://www.prompthunt.com",
+                    "description": "AI提示词搜索引擎",
+                    "icon": "https://www.prompthunt.com/favicon.ico",
+                    "tags": [
+                        "搜索",
+                        "提示词",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "PromptBase",
+                    "url": "https://promptbase.com",
+                    "description": "AI提示词市场",
+                    "icon": "https://promptbase.com/favicon.ico",
+                    "tags": [
+                        "市场",
+                        "提示词",
+                        "付费"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-image",
+            "name": "AI 图像处理",
+            "icon": "M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z",
+            "sites": [
+                {
+                    "title": "Remove.bg",
+                    "url": "https://www.remove.bg",
+                    "description": "AI智能抠图工具",
+                    "icon": "https://www.remove.bg/favicon.ico",
+                    "tags": [
+                        "抠图",
+                        "免费",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "Upscayl",
+                    "url": "https://www.upscayl.org",
+                    "description": "AI图片无损放大工具",
+                    "icon": "https://www.upscayl.org/favicon.ico",
+                    "tags": [
+                        "放大",
+                        "开源",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "Clipdrop",
+                    "url": "https://clipdrop.co",
+                    "description": "AI图像处理全能工具",
+                    "icon": "https://clipdrop.co/favicon.ico",
+                    "tags": [
+                        "处理",
+                        "工具",
+                        "全能"
+                    ]
+                },
+                {
+                    "title": "Magic Eraser",
+                    "url": "https://www.magiceraser.io",
+                    "description": "AI图片内容擦除工具",
+                    "icon": "https://www.magiceraser.io/favicon.ico",
+                    "tags": [
+                        "擦除",
+                        "修复",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "Photoroom",
+                    "url": "https://www.photoroom.com",
+                    "description": "AI图片背景处理工具",
+                    "icon": "https://www.photoroom.com/favicon.ico",
+                    "tags": [
+                        "背景",
+                        "处理",
+                        "工具"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-video",
+            "name": "AI 音视频",
+            "icon": "M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z",
+            "sites": [
+                {
+                    "title": "Runway",
+                    "url": "https://runwayml.com",
+                    "description": "专业的AI视频创作平台",
+                    "icon": "https://runwayml.com/favicon.ico",
+                    "tags": [
+                        "视频",
+                        "创作",
+                        "专业"
+                    ]
+                },
+                {
+                    "title": "Synthesia",
+                    "url": "https://www.synthesia.io",
+                    "description": "AI数字人视频生成平台",
+                    "icon": "https://www.synthesia.io/favicon.ico",
+                    "tags": [
+                        "数字人",
+                        "视频",
+                        "生成"
+                    ]
+                },
+                {
+                    "title": "Murf",
+                    "url": "https://murf.ai",
+                    "description": "AI语音生成和编辑工具",
+                    "icon": "https://murf.ai/favicon.ico",
+                    "tags": [
+                        "语音",
+                        "配音",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "D-ID",
+                    "url": "https://www.d-id.com",
+                    "description": "AI数字人视频生成平台",
+                    "icon": "https://www.d-id.com/favicon.ico",
+                    "tags": [
+                        "数字人",
+                        "视频",
+                        "生成"
+                    ]
+                },
+                {
+                    "title": "Descript",
+                    "url": "https://www.descript.com",
+                    "description": "AI视频编辑工具",
+                    "icon": "https://www.descript.com/favicon.ico",
+                    "tags": [
+                        "视频",
+                        "编辑",
+                        "工具"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-office",
+            "name": "AI 办公",
+            "icon": "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z M7 7h2v2H7V7z M15 7h2v2h-2V7z M7 11h10v2H7v-2z",
+            "sites": [
+                {
+                    "title": "Notion AI",
+                    "url": "https://notion.so",
+                    "description": "AI增强的笔记与协作平台",
+                    "icon": "https://notion.so/favicon.ico",
+                    "tags": [
+                        "笔记",
+                        "协作",
+                        "效率"
+                    ]
+                },
+                {
+                    "title": "Jasper",
+                    "url": "https://www.jasper.ai",
+                    "description": "AI文案写作助手",
+                    "icon": "https://www.jasper.ai/favicon.ico",
+                    "tags": [
+                        "写作",
+                        "营销",
+                        "文案"
+                    ]
+                },
+                {
+                    "title": "Copy.ai",
+                    "url": "https://www.copy.ai",
+                    "description": "AI营销文案生成工具",
+                    "icon": "https://www.copy.ai/favicon.ico",
+                    "tags": [
+                        "文案",
+                        "营销",
+                        "生成"
+                    ]
+                },
+                {
+                    "title": "Beautiful.ai",
+                    "url": "https://www.beautiful.ai",
+                    "description": "AI驱动的演示文稿工具",
+                    "icon": "https://www.beautiful.ai/favicon.ico",
+                    "tags": [
+                        "PPT",
+                        "演示",
+                        "设计"
+                    ]
+                },
+                {
+                    "title": "Canva AI",
+                    "url": "https://www.canva.com",
+                    "description": "AI驱动的设计平台",
+                    "icon": "https://www.canva.com/favicon.ico",
+                    "tags": [
+                        "设计",
+                        "协作",
+                        "模板"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-code",
+            "name": "AI 编程",
+            "icon": "M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z",
+            "sites": [
+                {
+                    "title": "GitHub Copilot",
+                    "url": "https://github.com/features/copilot",
+                    "description": "AI代码助手",
+                    "icon": "https://github.com/favicon.ico",
+                    "tags": [
+                        "编程",
+                        "代码",
+                        "助手"
+                    ]
+                },
+                {
+                    "title": "Replit",
+                    "url": "https://replit.com",
+                    "description": "AI驱动的编程环境",
+                    "icon": "https://replit.com/favicon.ico",
+                    "tags": [
+                        "IDE",
+                        "协作",
+                        "编程"
+                    ]
+                },
+                {
+                    "title": "Tabnine",
+                    "url": "https://www.tabnine.com",
+                    "description": "AI代码补全工具",
+                    "icon": "https://www.tabnine.com/favicon.ico",
+                    "tags": [
+                        "补全",
+                        "编程",
+                        "效率"
+                    ]
+                },
+                {
+                    "title": "CodeWhisperer",
+                    "url": "https://aws.amazon.com/codewhisperer",
+                    "description": "亚马逊的AI编程助手",
+                    "icon": "https://aws.amazon.com/favicon.ico",
+                    "tags": [
+                        "AWS",
+                        "编程",
+                        "助手"
+                    ]
+                },
+                {
+                    "title": "Cursor",
+                    "url": "https://cursor.sh",
+                    "description": "AI编程IDE",
+                    "icon": "https://cursor.sh/favicon.ico",
+                    "tags": [
+                        "IDE",
+                        "编程",
+                        "AI"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-translate",
+            "name": "AI 翻译",
+            "icon": "M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z",
+            "sites": [
+                {
+                    "title": "DeepL",
+                    "url": "https://www.deepl.com",
+                    "description": "最准确的AI翻译工具",
+                    "icon": "https://www.deepl.com/favicon.ico",
+                    "tags": [
+                        "翻译",
+                        "准确",
+                        "专业"
+                    ]
+                },
+                {
+                    "title": "Claude.ai",
+                    "url": "https://claude.ai",
+                    "description": "AI翻译与写作助手",
+                    "icon": "https://claude.ai/favicon.ico",
+                    "tags": [
+                        "翻译",
+                        "写作",
+                        "助手"
+                    ]
+                },
+                {
+                    "title": "彩云小译",
+                    "url": "https://fanyi.caiyunapp.com",
+                    "description": "实时翻译工具",
+                    "icon": "https://fanyi.caiyunapp.com/favicon.ico",
+                    "tags": [
+                        "翻译",
+                        "实时",
+                        "中文"
+                    ]
+                },
+                {
+                    "title": "Linguee",
+                    "url": "https://www.linguee.com",
+                    "description": "DeepL旗下的翻译词典",
+                    "icon": "https://www.linguee.com/favicon.ico",
+                    "tags": [
+                        "词典",
+                        "翻译",
+                        "例句"
+                    ]
+                },
+                {
+                    "title": "沉浸式翻译",
+                    "url": "https://immersive-translate.owenyoung.com",
+                    "description": "双语对照翻译工具",
+                    "icon": "https://immersive-translate.owenyoung.com/favicon.ico",
+                    "tags": [
+                        "翻译",
+                        "双语",
+                        "插件"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-design",
+            "name": "AI 设计",
+            "icon": "M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z",
+            "sites": [
+                {
+                    "title": "Figma AI",
+                    "url": "https://www.figma.com",
+                    "description": "AI辅助设计工具",
+                    "icon": "https://www.figma.com/favicon.ico",
+                    "tags": [
+                        "设计",
+                        "协作",
+                        "UI"
+                    ]
+                },
+                {
+                    "title": "Galileo AI",
+                    "url": "https://www.usegalileo.ai",
+                    "description": "AI UI设计工具",
+                    "icon": "https://www.usegalileo.ai/favicon.ico",
+                    "tags": [
+                        "UI",
+                        "设计",
+                        "生成"
+                    ]
+                },
+                {
+                    "title": "Uizard",
+                    "url": "https://uizard.io",
+                    "description": "AI快速原型设计工具",
+                    "icon": "https://uizard.io/favicon.ico",
+                    "tags": [
+                        "原型",
+                        "设计",
+                        "快速"
+                    ]
+                },
+                {
+                    "title": "Khroma",
+                    "url": "https://khroma.co",
+                    "description": "AI配色工具",
+                    "icon": "https://khroma.co/favicon.ico",
+                    "tags": [
+                        "配色",
+                        "设计",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "Brandmark",
+                    "url": "https://brandmark.io",
+                    "description": "AI logo设计工具",
+                    "icon": "https://brandmark.io/favicon.ico",
+                    "tags": [
+                        "Logo",
+                        "设计",
+                        "品牌"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-marketing",
+            "name": "AI 营销",
+            "icon": "M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z",
+            "sites": [
+                {
+                    "title": "Jasper",
+                    "url": "https://www.jasper.ai",
+                    "description": "AI营销内容生成平台",
+                    "icon": "https://www.jasper.ai/favicon.ico",
+                    "tags": [
+                        "营销",
+                        "内容",
+                        "生成"
+                    ]
+                },
+                {
+                    "title": "Copy.ai",
+                    "url": "https://www.copy.ai",
+                    "description": "AI营销文案工具",
+                    "icon": "https://www.copy.ai/favicon.ico",
+                    "tags": [
+                        "文案",
+                        "营销",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "Anyword",
+                    "url": "https://anyword.com",
+                    "description": "AI营销文案优化工具",
+                    "icon": "https://anyword.com/favicon.ico",
+                    "tags": [
+                        "优化",
+                        "营销",
+                        "文案"
+                    ]
+                },
+                {
+                    "title": "Writesonic",
+                    "url": "https://writesonic.com",
+                    "description": "AI营销内容创作平台",
+                    "icon": "https://writesonic.com/favicon.ico",
+                    "tags": [
+                        "营销",
+                        "内容",
+                        "创作"
+                    ]
+                },
+                {
+                    "title": "Peppertype.ai",
+                    "url": "https://peppertype.ai",
+                    "description": "AI营销内容助手",
+                    "icon": "https://peppertype.ai/favicon.ico",
+                    "tags": [
+                        "营销",
+                        "内容",
+                        "助手"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-education",
+            "name": "AI 教育",
+            "icon": "M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z",
+            "sites": [
+                {
+                    "title": "Duolingo",
+                    "url": "https://www.duolingo.com",
+                    "description": "AI驱动的语言学习平台",
+                    "icon": "https://www.duolingo.com/favicon.ico",
+                    "tags": [
+                        "语言",
+                        "学习",
+                        "教育"
+                    ]
+                },
+                {
+                    "title": "Coursera",
+                    "url": "https://www.coursera.org",
+                    "description": "AI个性化学习平台",
+                    "icon": "https://www.coursera.org/favicon.ico",
+                    "tags": [
+                        "课程",
+                        "学习",
+                        "在线"
+                    ]
+                },
+                {
+                    "title": "ELSA Speak",
+                    "url": "https://elsaspeak.com",
+                    "description": "AI英语口语教练",
+                    "icon": "https://elsaspeak.com/favicon.ico",
+                    "tags": [
+                        "英语",
+                        "口语",
+                        "学习"
+                    ]
+                },
+                {
+                    "title": "Gradescope",
+                    "url": "https://www.gradescope.com",
+                    "description": "AI作业评分工具",
+                    "icon": "https://www.gradescope.com/favicon.ico",
+                    "tags": [
+                        "评分",
+                        "教育",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "Knowji",
+                    "url": "https://www.knowji.com",
+                    "description": "AI词汇学习助手",
+                    "icon": "https://www.knowji.com/favicon.ico",
+                    "tags": [
+                        "词汇",
+                        "学习",
+                        "记忆"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-research",
+            "name": "AI 研究",
+            "icon": "M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z",
+            "sites": [
+                {
+                    "title": "Elicit",
+                    "url": "https://elicit.org",
+                    "description": "AI研究助手",
+                    "icon": "https://elicit.org/favicon.ico",
+                    "tags": [
+                        "研究",
+                        "文献",
+                        "助手"
+                    ]
+                },
+                {
+                    "title": "Connected Papers",
+                    "url": "https://www.connectedpapers.com",
+                    "description": "AI论文关系可视化",
+                    "icon": "https://www.connectedpapers.com/favicon.ico",
+                    "tags": [
+                        "论文",
+                        "可视化",
+                        "研究"
+                    ]
+                },
+                {
+                    "title": "Semantic Scholar",
+                    "url": "https://www.semanticscholar.org",
+                    "description": "AI驱动的学术搜索引擎",
+                    "icon": "https://www.semanticscholar.org/favicon.ico",
+                    "tags": [
+                        "学术",
+                        "搜索",
+                        "研究"
+                    ]
+                },
+                {
+                    "title": "Iris.ai",
+                    "url": "https://iris.ai",
+                    "description": "AI科研助手",
+                    "icon": "https://iris.ai/favicon.ico",
+                    "tags": [
+                        "科研",
+                        "助手",
+                        "工具"
+                    ]
+                },
+                {
+                    "title": "Scholarcy",
+                    "url": "https://www.scholarcy.com",
+                    "description": "AI论文解读工具",
+                    "icon": "https://www.scholarcy.com/favicon.ico",
+                    "tags": [
+                        "论文",
+                        "解读",
+                        "工具"
+                    ]
+                }
+            ]
+        }
+    ]
+}

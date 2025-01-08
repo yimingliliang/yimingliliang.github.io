@@ -1,0 +1,80 @@
+.sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  top: 64px; /* header height + padding */
+  left: 0;
+  overflow-y: auto;
+}
+
+.category-item {
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.category-item:hover {
+  background-color: #e9ecef;
+}
+
+.category-item.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* 修改按钮样式以适应图标 */
+.category-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  background: none;
+  color: #6c757d;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.category-button:hover {
+  color: #0d6efd;
+  background-color: rgba(13, 110, 253, 0.04);
+}
+
+.category-button.active {
+  color: #0d6efd;
+  background-color: rgba(13, 110, 253, 0.08);
+  font-weight: 500;
+}
+
+/* 侧边栏图标样式 */
+.category-button .category-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.category-button:hover .category-icon {
+  color: #0d6efd;
+}
+
+.category-button.active .category-icon {
+  color: #0d6efd;
+}
+
+/* 热门分类的图标颜色 */
+.category-button[data-category="hot"] .category-icon {
+  color: #ff4d4f !important;  /* 使用 !important 确保覆盖其他状态 */
+}
+
+/* 确保悬停和激活状态下也保持红色 */
+.category-button[data-category="hot"]:hover .category-icon,
+.category-button[data-category="hot"].active .category-icon {
+  color: #ff4d4f !important;
+} 

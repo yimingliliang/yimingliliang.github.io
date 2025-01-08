@@ -1,0 +1,256 @@
+.content {
+  flex: 1;
+  padding: 20px 40px;
+  background-color: #f8f9fa;
+  margin-left: 200px;
+  margin-top: 64px;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+}
+
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.sites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.site-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #edf2f7;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+  gap: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+}
+
+.site-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-color: #e2e8f0;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.site-icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  color: #6c757d;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-icon:not([src]) {
+  background-color: #f8f9fa;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.site-card p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.site-description {
+  margin: 0;
+  color: #6c757d;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.site-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.site-tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  white-space: nowrap;
+}
+
+.content-bottom {
+  margin-top: 60px;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  border: 1px solid #edf2f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.announcement {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 24px 32px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  border: 1px solid #edf2f7;
+}
+
+.announcement h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.announcement p {
+  color: #6c757d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.announcement a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.announcement a:hover {
+  text-decoration: underline;
+}
+
+.site-stats {
+  display: flex;
+  gap: 60px;
+  padding: 20px 0;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-value {
+  font-size: 28px;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.sites-container {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+
+.site-footer {
+  margin-top: 0;
+  text-align: center;
+  color: #6c757d;
+  font-size: 14px;
+  width: 100%;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.2s;
+  padding: 4px 8px;
+}
+
+.footer-links a:hover {
+  color: #0d6efd;
+}
+
+.divider {
+  margin: 0 8px;
+  color: #dee2e6;
+}
+
+.footer-info {
+  color: #adb5bd;
+}
+
+.footer-info p {
+  margin: 4px 0;
+}
+
+.footer-info a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.category-icon {
+  width: 24px;
+  height: 24px;
+  color: #0d6efd;
+}
+
+.category-header h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: normal;
+} 
