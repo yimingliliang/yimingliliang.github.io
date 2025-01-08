@@ -1,18 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <meta name="theme-color" content="#0d6efd" />
-    <meta
-      name="description"
-      content="AI 导航 - 精选优质 AI 工具和资源导航"
-    />
-    <title>AI 导航</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>AI导航 - 2024年最新AI工具导航网站 | 精选优质AI资源</title>
+    <meta name="description" content="AI导航网收录了300+优质AI工具，包括AI绘画（Midjourney、Stable Diffusion）、AI写作（ChatGPT、Claude）、AI编程（GitHub Copilot）、AI设计等领域的精选工具和最新资源，助您提升工作效率。" />
+    <meta name="keywords" content="AI导航,人工智能工具,AI工具集合,AI绘画,AI写作,AI编程,AI设计,ChatGPT,Midjourney,Stable Diffusion,AI工具箱,AI软件" />
+    <meta name="author" content="AI导航" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="AI导航" />
+    <meta name="application-name" content="AI导航" />
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:title" content="AI导航 - 发现最实用的AI工具和资源" />
+    <meta property="og:description" content="精选300+优质AI工具，覆盖AI绘画、写作、编程、设计等领域。发现提升效率的AI工具，让人工智能助力你的工作！" />
+    <meta property="og:image" content="https://your-domain.com/og-image.jpg" />
+    <meta property="og:image:alt" content="AI导航 - AI工具导航网站" />
+    <meta property="og:site_name" content="AI导航" />
+    <meta property="og:locale" content="zh_CN" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-domain.com/" />
+    <meta property="twitter:title" content="AI导航 - 发现最实用的AI工具和资源" />
+    <meta property="twitter:description" content="精选300+优质AI工具，覆盖AI绘画、写作、编程、设计等领域。发现提升效率的AI工具，让人工智能助力你的工作！" />
+    <meta property="twitter:image" content="https://your-domain.com/og-image.jpg" />
+    <meta property="twitter:image:alt" content="AI导航 - AI工具导航网站" />
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com/" />
+    
+    <!-- PWA related -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI导航",
+      "alternateName": "AI工具导航",
+      "description": "精选优质AI工具和资源导航",
+      "url": "https://your-domain.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://your-domain.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI导航",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://your-domain.com/logo.png"
+        }
+      },
+      "inLanguage": "zh-CN",
+      "isFamilyFriendly": true,
+      "keywords": "AI导航,人工智能,AI工具,AI绘画,AI写作,AI编程,AI设计",
+      "datePublished": "2024-01-01",
+      "dateModified": "2024-03-14"
+    }
+    </script>
+    <!-- Organization Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AI导航",
+      "url": "https://your-domain.com",
+      "logo": "https://your-domain.com/logo.png",
+      "sameAs": [
+        "https://github.com/your-repo"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "support@your-domain.com"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!-- 添加百度统计等分析工具 -->
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?YOUR_BAIDU_ANALYTICS_ID";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
   </body>
 </html>

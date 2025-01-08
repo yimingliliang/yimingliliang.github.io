@@ -1,0 +1,64 @@
+# 全局规则
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Allow: /about
+Allow: /feedback
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*?*
+Disallow: /*?
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# 百度爬虫
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# Google爬虫
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# 必应爬虫
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# 360爬虫
+User-agent: 360Spider
+Allow: /
+Crawl-delay: 1
+
+# 搜狗爬虫
+User-agent: Sogou spider
+Allow: /
+Crawl-delay: 1
+
+# 神马爬虫
+User-agent: YodaoBot
+Allow: /
+Crawl-delay: 1
+
+# 头条爬虫
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 1
+
+# 图片爬虫
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+
+# Sitemap
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Host
+Host: https://your-domain.com 
