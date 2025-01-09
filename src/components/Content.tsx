@@ -105,7 +105,7 @@ function Content({ categories }: ContentProps) {
       <div className="content-bottom">
         <div className="announcement">
           <h3>公告</h3>
-          <p>欢迎投稿优质站点，请通过 <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">GitHub</a> 提交 PR 或 Issue</p>
+          <p>欢迎投稿优质站点，请通过 <a href="https://github.com/gly-hub/ai-nav-site" target="_blank" rel="noopener noreferrer">GitHub</a> 提交 PR 或 Issue</p>
         </div>
         <div className="site-stats">
           <div className="stat-item">
@@ -119,7 +119,7 @@ function Content({ categories }: ContentProps) {
         </div>
         <footer className="site-footer">
           <div className="footer-links">
-            <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/gly-hub/ai-nav-site" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span className="divider">|</span>
             <a href="/about">关于我们</a>
             <span className="divider">|</span>
