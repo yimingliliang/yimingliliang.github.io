@@ -911,7 +911,7 @@
                 },
                 {
                     "title": "AI新媒体文章",
-                    "url": "https://vt.quark.cn/blm/creator-773/index?utm_source=ai-bot.cn",
+                    "url": "https://vt.quark.cn/blm/creator-773/index",
                     "description": "夸克推出的AI写作工具",
                     "icon": "https://cdn.sm.cn/static/23/08/30/0da52eab6f7e1d3d009f2c4b669347d3.png",
                     "tags": [
@@ -1299,16 +1299,6 @@
                     "icon": "https://cdn.looka.com/meta/favicon.ico",
                     "tags": [
                         "ICON"
-                    ]
-                },
-                {
-                    "title": "智绘设计",
-                    "url": "https://taishan.qq.com/brand/",
-                    "description": "腾讯推出的智能设计平台，让内容更精彩",
-                    "icon": "https://static.taishan.qq.com/editor/static/_main/favicon.ico",
-                    "tags": [
-                        "腾讯",
-                        "电商设计"
                     ]
                 },
                 {
@@ -1791,7 +1781,7 @@
                     "title": "Loom AI",
                     "url": "https://www.loom.com/ai",
                     "description": "Loom AI是一个强大的视频处理工具，它通过人工智能简化了视频的录制、编辑和分享过程。它不仅提高了视频内容的可访问性和参与度，还通过自动化功能显著提升了工作效率。",
-                    "icon": "https://www.loom.com/favicon.ico",
+                    "icon": "https://cdn.loom.com/assets/favicons-loom/favicon-32x32.png",
                     "tags": [
                         "AIGC视频平台"
                     ]
@@ -1800,7 +1790,7 @@
                     "title": "达摩院·寻光",
                     "url": "https://xunguang.damo-vision.com",
                     "description": "达摩院·寻光是一个创新的AI驱动的视频创作工具，它通过提供一系列自动化和辅助性功能，大大降低了视频创作的技术门槛，使得用户可以更加专注于创意和故事表达。",
-                    "icon": "https://xunguang.damo-vision.com/favicon.ico",
+                    "icon": "https://img.alicdn.com/imgextra/i1/O1CN010nGpac1NeYkRn0OzV_!!6000000001595-2-tps-128-128.png",
                     "tags": [
                         "视频生成"
                     ]
@@ -1821,15 +1811,6 @@
                     "icon": "https://cdn.fliki.ai/public/favicon/favicon.ico?v=0.1",
                     "tags": [
                         "视频生成"
-                    ]
-                },
-                {
-                    "title": "Sora",
-                    "url": "https://openai.com/index/sora",
-                    "description": "能够生成长达 1 分钟的高清视频，涵盖广泛的视觉数据类型和分辨率。Sora通过在视频和图像的压缩潜在空间中训练，将其分解为时空位置补丁，实现了可扩展的视频生成。",
-                    "icon": "https://openai.com/favicon.ico",
-                    "tags": [
-                        "AIGC视频平台"
                     ]
                 },
                 {
@@ -1890,7 +1871,7 @@
                     "title": "MURF.AI",
                     "url": "https://murf.ai",
                     "description": "在几分钟内制作出录音棚品质的配音。将 Murf 逼真的 AI 声音用于播客、视频和所有专业演示",
-                    "icon": "https://murf.ai/favicon.ico",
+                    "icon": "https://cdn.prod.website-files.com/66b3765153a8a0c399c70981/670cb2af23deffa700aa8a09_favicon.ico",
                     "tags": [
                         "语音生成"
                     ]
@@ -1899,7 +1880,7 @@
                     "title": "Reachout.ai",
                     "url": "https://reachout.ai",
                     "description": "Reachout.ai是一个人工智能驱动的视频开发平台，专为忙碌的企业家和销售团队打造，他们希望突破收件箱的噪音，大规模生成个性化视频，并获得更高的电子邮件回复率和更多与理想客户的会议。",
-                    "icon": "https://reachout.ai/favicon.ico",
+                    "icon": "https://reachout.ai/wp-content/uploads/2021/10/cropped-favicon4-3-180x180.png",
                     "tags": [
                         "视频开发"
                     ]
@@ -1917,7 +1898,7 @@
                     "title": "白日梦",
                     "url": "https://aibrm.paluai.com",
                     "description": "AI视频创作平台，最长可生成六分钟的视频",
-                    "icon": "https://aibrm.paluai.com/favicon.ico",
+                    "icon": "https://cdn.brmgo.cn/static/images/logo-icon.png",
                     "tags": [
                         "视频生成"
                     ]
@@ -1926,7 +1907,7 @@
                     "title": "SoundView",
                     "url": "https://soundviewai.com/invitation",
                     "description": "AI视频本地化工具，支持视频配音和翻译",
-                    "icon": "https://soundviewai.com/favicon.ico",
+                    "icon": "https://soundviewai.com/logo.svg",
                     "tags": [
                         "视频配音"
                     ]
@@ -1944,7 +1925,7 @@
                     "title": "可灵AI",
                     "url": "https://klingai.kuaishou.com/",
                     "description": "快手推出的AI图像和视频创作平台",
-                    "icon": "https://klingai.kuaishou.com/favicon.ico",
+                    "icon": "https://ali2.a.kwimgs.com/kos/nlav10378/aiwp/favico.ico",
                     "tags": [
                         "视频生成"
                     ]
@@ -1953,16 +1934,7 @@
                     "title": "Krea AI",
                     "url": "https://www.krea.ai/",
                     "description": "实时AI图像、视频生成和编辑平台",
-                    "icon": "https://www.krea.ai/favicon.ico",
-                    "tags": [
-                        "视频生成"
-                    ]
-                },
-                {
-                    "title": "智谱清影",
-                    "url": "https://ai-bot.cn/chatglm-video",
-                    "description": "智谱AI推出的AI视频生成工具，支持文生视频、图生视频",
-                    "icon": "https://chatglm-video.chatglm.com/favicon.ico",
+                    "icon": "https://www.krea.ai/favicon/favicon-192.png",
                     "tags": [
                         "视频生成"
                     ]
@@ -1989,7 +1961,7 @@
                     "title": "Runway",
                     "url": "https://runwayml.com/",
                     "description": "强大的AI视频制作工具，绿幕抠像、视频合成等",
-                    "icon": "https://runwayml.com/favicon.ico",
+                    "icon": "https://runwayml.com/icon.png?354f8c2b5139d556",
                     "tags": [
                         "视频生成"
                     ]
@@ -1998,14 +1970,14 @@
                     "title": "Pika",
                     "url": "https://pika.art",
                     "description": "Pika Labs推出的AI视频生成和编辑工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
+                    "icon": "https://pika.art/favicon.ico",
                     "tags": []
                 },
                 {
                     "title": "Vidu",
                     "url": "https://www.vidu.studio/",
                     "description": "生数科技与清华大学联合发布的AI视频大模型",
-                    "icon": "https://www.vidu.studio/favicon.ico",
+                    "icon": "https://www.vidu.studio/logo.svg",
                     "tags": [
                         "视频生成"
                     ]
@@ -2014,23 +1986,14 @@
                     "title": "Dream Machine",
                     "url": "https://lumalabs.ai/dream-machine",
                     "description": "Luma推出的AI视频生成工具，120秒内可生成120帧视频",
-                    "icon": "https://lumalabs.ai/favicon.ico",
+                    "icon": "https://static.cdn-luma.com/files/dm-landing/shared/favicon-white.ico",
                     "tags": []
                 },
                 {
-                    "title": "通义万相AI视频",
-                    "url": "https://ai-bot.cn/tongyi-wanxvideo",
-                    "description": "阿里推出的免费AI视频生成工具，支持文生视频和图生视频",
-                    "icon": "https://tongyi-wanxvideo.tongyi.com/favicon.ico",
-                    "tags": [
-                        "视频生成"
-                    ]
-                },
-                {
                     "title": "即创",
-                    "url": "https://aic.oceanengine.com/?utm_source=ai-bot.cn",
+                    "url": "https://aic.oceanengine.com/",
                     "description": "抖音推出的一站式智能创作平台，支持视频、图文和直播创作",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
+                    "icon": "https://p3-aic-static.byteimg.com/tos-cn-i-bgswn1iqqi/aic-logo.svg~tplv-bgswn1iqqi-image.image",
                     "tags": []
                 },
                 {
@@ -2056,15 +2019,6 @@
                     "url": "https://viggle.ai/",
                     "description": "AI生成角色动态视频的工具",
                     "icon": "https://viggle.ai/favicon.ico",
-                    "tags": [
-                        "视频生成"
-                    ]
-                },
-                {
-                    "title": "跃问视频",
-                    "url": "https://ai-bot.cn/yuewen-videos",
-                    "description": "阶跃星辰推出的AI视频生成工具",
-                    "icon": "https://yuewen.ai/favicon.ico",
                     "tags": [
                         "视频生成"
                     ]
@@ -2100,7 +2054,7 @@
                     "title": "寻光",
                     "url": "https://xunguang.damo-vision.com/",
                     "description": "阿里达摩院推出的全流程AI视频创作平台",
-                    "icon": "https://xunguang.damo-vision.com/favicon.ico",
+                    "icon": "https://img.alicdn.com/imgextra/i1/O1CN010nGpac1NeYkRn0OzV_!!6000000001595-2-tps-128-128.png",
                     "tags": [
                         "视频生成"
                     ]
@@ -2124,15 +2078,6 @@
                     ]
                 },
                 {
-                    "title": "AdsDog",
-                    "url": "https://adsdog.net/",
-                    "description": "AI营销工具，一键生成多语言数字人口播视频",
-                    "icon": "https://adsdog.net/favicon.ico",
-                    "tags": [
-                        "视频生成"
-                    ]
-                },
-                {
                     "title": "Stable Video",
                     "url": "https://www.stablevideo.com/",
                     "description": "Stability AI上线的AI视频生成工具",
@@ -2145,7 +2090,7 @@
                     "title": "OneStory",
                     "url": "https://onestory.art/",
                     "description": "AI故事生成助手，创作故事和视频变得像说话一样简单",
-                    "icon": "https://onestory.art/favicon.ico",
+                    "icon": "https://onestory.art/createone.ico",
                     "tags": [
                         "视频生成"
                     ]
@@ -2154,7 +2099,7 @@
                     "title": "Noisee AI",
                     "url": "https://noisee.ai/",
                     "description": "月之暗面旗下推出的AI音乐视频MV生成工具",
-                    "icon": "https://noisee.ai/favicon.ico",
+                    "icon": "https://noisee.ai/public/favicon.ico",
                     "tags": [
                         "视频生成"
                     ]
@@ -2181,7 +2126,7 @@
                     "title": "Etna",
                     "url": "https://etna.7volcanoes.com/",
                     "description": "七火山科技推出的AI文生视频工具",
-                    "icon": "https://etna.7volcanoes.com/favicon.ico",
+                    "icon": "https://etna.7volcanoes.com/assets/images/logo-6.png",
                     "tags": [
                         "视频生成"
                     ]
@@ -2195,27 +2140,18 @@
             "sites": [
                 {
                     "title": "琅琅配音",
-                    "url": "https://lang123.top?rmd=62892",
+                    "url": "https://lang123.top",
                     "description": "琅琅配音是一款卓越的智能文本转语音工具，提供语音合成服务。",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2024/07/6ec81-www.lang123.top.png",
+                    "icon": "https://lang123.top/icon.png",
                     "tags": [
-                        "AIGC音频工具"
-                    ]
-                },
-                {
-                    "title": "配音神器PRO-移动端",
-                    "url": "https://api.peiyinshenqi.club/u/OwTX3",
-                    "description": "配音神器官网_文字转语音神器_配音神器pro_语音合成软件_专业配音神器_AI配音神器",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2023/10/微信截图_20231024082949.jpg",
-                    "tags": [
-                        "AIGC音频工具"
+                        "语音合成"
                     ]
                 },
                 {
                     "title": "TTSMaker马克配音",
                     "url": "https://ttsmaker.cn",
                     "description": "免费的AI配音平台，可以将文本转换成语音，支持50多种语言和300多种语音风格",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2024/02/b401d-ttsmaker.cn.png",
+                    "icon": "https://ttsmaker.cn/favicon.ico",
                     "tags": [
                         "AIGC音频工具"
                     ]
@@ -2224,70 +2160,72 @@
                     "title": "声咔AI配音",
                     "url": "https://peiyin.soundcos.com",
                     "description": "声咔AI配音是在线配音软件平台，垂直深度音频效率工具，支持30多种个性化调音功能等，限制少对用户友好。",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2024/11/29679153a70959b74bb307968ea8119.png",
+                    "icon": "https://peiyin.soundcos.com/favicon.ico",
                     "tags": [
-                        "AIGC音频工具"
+                        "在线配音"
                     ]
                 },
                 {
                     "title": "音子AI",
                     "url": "https://www.yinziai.com",
                     "description": "音子AI利用人工智能技术提供了一系列便捷的音频处理服务，无论是音乐制作的音轨分离，还是有声读物的文本转语音，都能满足用户的不同需求。",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2024/02/weixin-code.3e8fc23.jpg",
+                    "icon": "https://www.yinziai.com/favicon.ico",
                     "tags": [
-                        "AIGC音频工具"
+                        "音乐制作"
                     ]
                 },
                 {
                     "title": "呱呱有声-制作平台",
                     "url": "https://www.gstudios.com.cn",
                     "description": "呱呱有声制作平台通过其AI+制作模式，极大地提高了有声作品的制作效率和产能。无论是个人创作者还是专业团队，都可以利用该平台的先进功能，快速创作出高质量的有声作品，同时降低成本和管理难度。",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2023/07/微信截图_20230725102514.jpg",
+                    "icon": "https://www.gstudios.com.cn/favicon.ico",
                     "tags": [
-                        "AIGC音频工具"
+                        "有声书制作"
                     ]
                 },
                 {
                     "title": "Dubbing大饼AI声音",
                     "url": "https://engine.dubbing.tech",
                     "description": "大饼AI变声器，自然人声效果，千种音色选择，全场景接入支持",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2023/11/585b5-engine.dubbing.tech.png",
+                    "icon": "https://engine.dubbing.tech/favicon.ico",
                     "tags": [
-                        "AIGC音频工具"
+                        "变声器"
                     ]
                 },
                 {
                     "title": "Dubbingx",
                     "url": "https://www.dubbingx.com",
                     "description": "全球唯一、多情绪、多语态、全可控的AI配音产品",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2024/08/329c5-www.dubbingx.com.png",
+                    "icon": "https://nwzimg.wezhan.cn/sitefiles10341/10341592/%E7%BD%91%E7%AB%99%E6%A0%87%E7%AD%BE%E9%A1%B5%E5%9B%BE%E6%A0%87.png",
                     "tags": [
-                        "AIGC音频工具"
+                        "配音"
                     ]
                 },
                 {
                     "title": "Narration Box",
                     "url": "https://narrationbox.com",
                     "description": "Narration Box是一种语音合成服务，用户可以创建画外音、旁白、有声读物、音频页面、播客等。它拥有超过700个人工智能增强的仿人叙述者，支持20多种语言，功能强大的语音编辑器，以及博客和新闻网站的音频小部件。它还包括常见问题解答、反馈、更新等资源。它是免费的，并提供了分发、分析、盈利等工具。",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2023/02/59f74-narrationbox.com.png",
+                    "icon": "https://framerusercontent.com/images/g5V6f068jm4MnBromWELLcN9paE.png",
                     "tags": [
-                        "AIGC音频工具"
+                        "配音",
+                        "有声书制作"
                     ]
                 },
                 {
                     "title": "Resemble AI",
                     "url": "https://www.resemble.ai",
                     "description": "Resemble.ai的AI语音生成器是一个完整的生成式语音AI工具包，允许您在几秒钟内创建类似人类的声音。",
-                    "icon": "https://aigc.cn/wp-content/uploads/2023/02/22025-www.resemble.ai.png",
+                    "icon": "https://cdn-ikphdcf.nitrocdn.com/iWWPCWIhKvbRsOjJZAYfaYqrvBIRQglP/assets/images/optimized/rev-13d2e72/www.resemble.ai/wp-content/uploads/2022/02/cropped-abSldYYi_400x400-32x32.jpeg",
                     "tags": [
-                        "AIGC音频工具"
+                        "配音",
+                        "有声书制作"
                     ]
                 },
                 {
                     "title": "FineVoice",
                     "url": "https://www.fineshare.com/finevoice/index-new.html",
                     "description": "FineVoice是一种人工智能数字语音解决方案，可以帮助用户增强声音，并实时改变声音。它配有实时变声器，无限的音频和声音效果，录音室质量的录音机，文本到语音，语音到文本。",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2023/03/48320-www.fineshare.com.png",
+                    "icon": "https://www.fineshare.com/favicon.ico",
                     "tags": [
                         "AIGC音频工具"
                     ]
@@ -2296,7 +2234,7 @@
                     "title": "Speechify",
                     "url": "https://speechify.com",
                     "description": "Speechify是一款文本转语音的应用程序，通过将文本转换成自然的声音，帮助你理解和记住更多你所阅读的内容。它可以在Chrome、iOS、Android和Mac上使用。",
-                    "icon": "https://aigc.cn/wp-content/uploads/2023/02/5d9e2-speechify.com.png",
+                    "icon": "https://speechify.com/favicon.ico",
                     "tags": [
                         "AIGC音频工具"
                     ]
@@ -2305,7 +2243,7 @@
                     "title": "Uberduck",
                     "url": "https://uberduck.ai",
                     "description": "Uberduck是一个开源的语音AI社区，可以帮助用户在几分钟内通过api创建人工智能生成的音频应用程序。它允许用户使用5000 +富有表现力的声音制作AI画外音，并使用他们的AI生成的说唱工具创建自己的自定义语音克隆。",
-                    "icon": "https://aigc.cn/wp-content/uploads/2023/02/5ba70-uberduck.ai.png",
+                    "icon": "https://uberduck.ai/favicon.ico",
                     "tags": [
                         "AIGC音频工具"
                     ]
@@ -2314,174 +2252,173 @@
                     "title": "出门问问api",
                     "url": "https://ai.chumenwenwen.com/pages/document/get-started",
                     "description": "出门问问（Chumen Wenwen）是一家中国的人工智能公司，以其智能语音助手和相关技术而闻名。出门问问提供的OPEN API（开放应用程序编程接口）允许开发者将出门问问的技术集成到自己的应用程序、服务或产品中。",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2024/06/bf11f-ai.chumenwenwen.com.png",
+                    "icon": "https://ai.chumenwenwen.com/favicon.ico",
                     "tags": [
                         "EN",
                         "AIGC基础设施"
                     ]
                 },
                 {
-                    "title": "全诊通Aioclinic",
-                    "url": "https://www.aioclinic.com/ai_assistant/introduction#",
-                    "description": "通过语音识别、图片识别、大语言模型等技术，帮助医生自动生成病历，提升病历书写效率和质量，同时保护患者隐私",
-                    "icon": "https://www.aigc.cn/wp-content/uploads/2024/12/73bc5e5ea3263f5cecd4745ab8c2cc46.png",
-                    "tags": [
-                        "AIGC生物医学"
-                    ]
-                },
-                {
                     "title": "讯飞智作",
-                    "url": "https://peiyin.xunfei.cn/?ftype=14",
+                    "url": "https://peiyin.xunfei.cn/",
                     "description": "科大讯飞推出的AI转语音和配音工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://openstorage.xfyousheng.com/asset/asset/20250105/0d0db524-243e-4f97-bf15-2eef4b58e1e3.png",
+                    "tags": [
+                        "语音",
+                        "配音"
+                    ]
                 },
                 {
                     "title": "听脑AI",
                     "url": "https://itingnao.com/?source=3514&unit=3516",
                     "description": "人工智能语音录音记录助手",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://itingnao.com/favicon.ico",
+                    "tags": [
+                        "语音",
+                        "配音"
+                    ]
                 },
                 {
                     "title": "琅琅配音",
-                    "url": "https://lang123.top/?rmd=64546",
+                    "url": "https://lang123.top/",
                     "description": "智能文本转语音工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://lang123.top/icon.png",
+                    "tags": [
+                        "语音",
+                        "配音"
+                    ]
                 },
                 {
                     "title": "音剪",
-                    "url": "https://audioeditor.ximalaya.com/?utm_source=ai-bot.cn",
+                    "url": "https://audioeditor.ximalaya.com/",
                     "description": "喜马拉雅推出的一站式AI音频创作平台",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
-                },
-                {
-                    "title": "简单听记",
-                    "url": "https://pan.baidu.com/embed/listennote?utm_source=ai-bot.cn",
-                    "description": "百度网盘推出的AI语音转文字工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://s1.xmcdn.com/yx/anchor-voice-cut-official/last/dist/favicon.ico",
+                    "tags": [
+                        "音频",
+                        "喜马拉雅"
+                    ]
                 },
                 {
                     "title": "讯飞听见",
-                    "url": "https://www.iflyrec.com/zhuanwenzi.html?from=ai-bot_zwz",
+                    "url": "https://www.iflyrec.com/zhuanwenzi.html",
                     "description": "科大讯飞推出的在线AI语音转文字工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://www.iflyrec.com/static/imgs/favicon.ico",
+                    "tags": [
+                        "语音",
+                        "配音"
+                    ]
                 },
                 {
                     "title": "MemoAI",
-                    "url": "https://memo.ac/?utm_source=ai-bot.cn",
+                    "url": "https://memo.ac/",
                     "description": "免费的AI语音转文字工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
-                },
-                {
-                    "title": "Reecho睿声",
-                    "url": "https://www.reecho.ai/?ref=ai-bot.cn",
-                    "description": "超拟真的中英文AI语音克隆/生成平台",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://vip2.loli.io/2023/08/12/jtziym7orAeLdKg.png",
+                    "tags": [
+                        "语音",
+                        "配音"
+                    ]
                 },
                 {
                     "title": "Stable Audio",
-                    "url": "https://www.stableaudio.com/?utm_source=ai-bot.cn",
+                    "url": "https://www.stableaudio.com/",
                     "description": "Stability AI最新推出的音乐生成工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
-                },
-                {
-                    "title": "TTSMaker",
-                    "url": "https://ttsmaker.cn/?utm_source=ai-bot.cn",
-                    "description": "马克配音（MakVoice）推出的免费AI文字转语音工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
-                },
-                {
-                    "title": "LOVO AI",
-                    "url": "https://lovo.ai/?utm_source=ai-bot.cn",
-                    "description": "专业的AI文字转语音工具，支持500+声音和100种语言",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://www.stableaudio.com/favicon.ico",
+                    "tags": [
+                        "音乐",
+                        "配音"
+                    ]
                 },
                 {
                     "title": "Uberduck",
-                    "url": "https://uberduck.ai/?via=ai-bot",
+                    "url": "https://uberduck.ai/",
                     "description": "开源的AI语音生成社区，5000多种不同的声音",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://uberduck.ai/favicon.ico",
+                    "tags": [
+                        "语音",
+                        "配音"
+                    ]
                 },
                 {
                     "title": "ElevenLabs",
-                    "url": "https://try.elevenlabs.io/mqbahm8egbk8",
+                    "url": "https://try.elevenlabs.io",
                     "description": "AI文本转语音，支持包含中文在内的28种语言",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://elevenlabs.io/favicon.ico",
+                    "tags": [
+                        "语音",
+                        "配音"
+                    ]
                 },
                 {
                     "title": "大饼AI变声",
-                    "url": "https://dubbing.tech/?ref=ai-bot.cn",
+                    "url": "https://dubbing.tech/",
                     "description": "免费专业的AI变声软件，一键实时语音变声",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://engine.dubbing.tech/favicon.ico",
+                    "tags": [
+                        "变声器"
+                    ]
                 },
                 {
                     "title": "Supertone Shift",
-                    "url": "https://product.supertone.ai/shift?utm_source=ai-bot.cn",
+                    "url": "https://product.supertone.ai/shift",
                     "description": "AI驱动的实时语音变换软件",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://product.supertone.ai/favicon.ico",
+                    "tags": [
+                        "变声器"
+                    ]
                 },
                 {
                     "title": "Adobe Podcast",
                     "url": "https://podcast.adobe.com",
                     "description": "Adobe推出的在线AI音频录制和编辑工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://podcast.adobe.com/favicon.ico",
+                    "tags": [
+                        "音频"
+                    ]
                 },
                 {
                     "title": "Wondercraft",
-                    "url": "https://www.wondercraft.ai/?via=ai-bot",
+                    "url": "https://www.wondercraft.ai/",
                     "description": "AI音频内容生成工具，可创建播客有声书等",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://www.wondercraft.ai/favicon.ico",
+                    "tags": [
+                        "音频"
+                    ]
                 },
                 {
                     "title": "Voicenotes",
-                    "url": "https://voicenotes.com/?utm_source=ai-bot.cn",
+                    "url": "https://voicenotes.com/",
                     "description": "AI驱动的语音笔记工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
-                },
-                {
-                    "title": "Deepgram",
-                    "url": "https://deepgram.partnerlinks.io/ai-bot",
-                    "description": "快速低成本的AI语音文本互转API平台",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://voicenotes.com/favicon.ico",
+                    "tags": [
+                        "音频"
+                    ]
                 },
                 {
                     "title": "Audiobox",
-                    "url": "https://audiobox.metademolab.com/?ref=ai-bot.cn",
+                    "url": "https://audiobox.metademolab.com/",
                     "description": "Meta推出的免费开源的AI语音和声音生成模型",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://audiobox.metademolab.com/favicon.ico",
+                    "tags": [
+                        "AIGC基础设施"
+                    ]
                 },
                 {
                     "title": "IBM Watson文字转语音",
                     "url": "https://www.ibm.com/cloud/watson-text-to-speech",
                     "description": "IBM Watson文字转语音",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://www.ibm.com/favicon.ico",
+                    "tags": [
+                        "AIGC基础设施"
+                    ]
                 },
                 {
                     "title": "FakeYou",
                     "url": "https://fakeyou.com",
                     "description": "Deep Fake文本转语音",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
+                    "icon": "https://fakeyou.com/favicon.ico",
+                    "tags": [
+                        "AIGC基础设施"
+                    ]
                 }
             ]
         },
@@ -2539,7 +2476,7 @@
                     "title": "必应翻译",
                     "url": "https://www.bing.com/translator",
                     "description": "微软必应推出的翻译工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
+                    "icon": "https://www.bing.com/th?id=OTT.7A274AA188550691D09FA80F322A58D2&pid=Trans",
                     "tags": [
                         "AIGC翻译"
                     ]
@@ -2872,13 +2809,6 @@
                         "编程",
                         "助手"
                     ]
-                },
-                {
-                    "title": "CodiumAI",
-                    "url": "https://www.codium.ai",
-                    "description": "免费的AI代码测试和分析工具",
-                    "icon": "https://ai-bot.cn/wp-content/themes/onenav/images/favicon.png",
-                    "tags": []
                 },
                 {
                     "title": "Project IDX",
