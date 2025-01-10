@@ -4,28 +4,41 @@ import Sidebar from './components/Sidebar';
 import Content from './components/Content';
 import { Category } from './types';
 import './App.css';
-import sitesData from './data/sites.json';
+import { decrypt } from './utils/crypto';
 import { Analytics } from '@vercel/analytics/react';
 
 function App() {
-  const [categories, setCategories] = useState<Category[]>(sitesData.categories);
+  const [categories, setCategories] = useState<Category[]>([]);
   const [activeCategory, setActiveCategory] = useState<string>('');
 
-  // 初始化时设置第一个分类为选中状态
+  // 加载并解密数据
   useEffect(() => {
-    if (categories.length > 0 && !activeCategory) {
-      setActiveCategory(categories[0].id);
-    }
+    fetch('/sites.encrypted.json')
+      .then(res => res.text())
+      .then(encryptedData => {
+        const decryptedData = decrypt(encryptedData);
+        setCategories(decryptedData.categories);
+        if (decryptedData.categories.length > 0) {
+          setActiveCategory(decryptedData.categories[0].id);
+        }
+      })
+      .catch(console.error);
   }, []);
 
   // 搜索处理函数
   const handleSearch = (keyword: string) => {
     if (!keyword.trim()) {
-      setCategories(sitesData.categories);
+      fetch('/sites.encrypted.json')
+        .then(res => res.text())
+        .then(encryptedData => {
+          const decryptedData = decrypt(encryptedData);
+          setCategories(decryptedData.categories);
+        })
+        .catch(console.error);
       return;
     }
 
-    const filteredCategories = sitesData.categories.map(category => ({
+    const filteredCategories = categories.map(category => ({
       ...category,
       sites: category.sites.filter(site => 
         site.title.toLowerCase().includes(keyword.toLowerCase()) ||
@@ -36,10 +49,8 @@ function App() {
 
     setCategories(filteredCategories);
     
-    // 设置第一个有结果的分类为选中状态
     if (filteredCategories.length > 0) {
       setActiveCategory(filteredCategories[0].id);
-      // 滚动到第一个分类
       const element = document.querySelector(`[data-category-id="${filteredCategories[0].id}"]`);
       if (element) {
         const headerOffset = 84;
@@ -57,7 +68,7 @@ function App() {
   // 监听滚动，更新当前分类
   const updateActiveCategory = () => {
     const categoryElements = document.querySelectorAll('.category-section');
-    const headerOffset = 84; // 与点击滚动使用相同的偏移量
+    const headerOffset = 84;
 
     categoryElements.forEach((element) => {
       const rect = element.getBoundingClientRect();
