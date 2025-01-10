@@ -5,6 +5,7 @@ import Content from './components/Content';
 import { Category } from './types';
 import './App.css';
 import sitesData from './data/sites.json';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [categories, setCategories] = useState<Category[]>(sitesData.categories);
@@ -96,6 +97,7 @@ function App() {
         />
         <Content categories={categories} />
       </main>
+      <Analytics />
     </div>
   );
 }
