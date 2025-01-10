@@ -1,50 +1,100 @@
-# React + TypeScript + Vite
+# AI 导航站点
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+一个使用 Cursor AI 辅助开发的现代化 AI 工具导航网站。本项目由 Cursor AI 负责开发、测试和数据抓取，展示了 AI 辅助开发的强大能力。
 
-Currently, two official plugins are available:
+## 特性
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🚀 快速响应的现代化界面
+- 🔍 实时搜索功能
+- 📱 响应式设计，支持移动端
+- 🔒 数据加密存储
+- 🤖 300+ 精选 AI 工具
+- 📊 SEO 优化
+- 📈 访问统计分析
 
-## Expanding the ESLint configuration
+## 技术栈
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **前端框架**: React 18 + TypeScript
+- **构建工具**: Vite 6
+- **样式解决方案**: Emotion (CSS-in-JS)
+- **路由**: React Router DOM
+- **数据加密**: CryptoJS
+- **分析工具**: Vercel Analytics
+- **代码规范**: ESLint
+- **开发工具**: Cursor AI
 
-- Configure the top-level `parserOptions` property like this:
+## 项目亮点
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. **数据安全**
+   - 使用 AES 加密算法保护数据
+   - 环境变量配置加密密钥
+   - 构建时自动加密数据
+
+2. **SEO 优化**
+   - 完整的 Meta 标签
+   - 结构化数据支持
+   - 自动生成 Sitemap
+   - 移动端优化
+
+3. **性能优化**
+   - 图片懒加载
+   - 组件按需加载
+   - 资源预加载
+   - 构建优化
+
+## 开发
+
+```bash
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+
+# 构建项目
+npm run build
+
+# 预览构建结果
+npm run preview
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 项目结构
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+nav-site/
+├── public/                # 静态资源
+├── src/
+│   ├── components/       # React 组件
+│   ├── data/            # 数据文件
+│   ├── utils/           # 工具函数
+│   ├── types/           # TypeScript 类型定义
+│   └── App.tsx          # 应用入口
+├── scripts/             # 构建脚本
+└── package.json         # 项目配置
+```
+
+## Cursor AI 的贡献
+
+本项目完全由 Cursor AI 辅助开发，包括：
+
+- 代码编写和重构
+- 组件设计和实现
+- 数据结构设计
+- 性能优化建议
+- 自动化测试
+- SEO 优化
+- 数据抓取和整理
+
+## 部署
+
+项目使用 GitHub Pages 部署，每次推送到 main 分支时自动部署。
+
+## 许可证
+
+MIT License
+
+## 致谢
+
+- [Cursor AI](https://cursor.sh/) - AI 辅助开发工具
+- [Vercel](https://vercel.com/) - 分析工具提供商
+- 所有贡献者和用户
