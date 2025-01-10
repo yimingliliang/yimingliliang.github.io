@@ -1,6 +1,6 @@
 import CryptoJS from 'crypto-js';
 
-const SECRET_KEY = 'your-secret-key-2024'; // 你可以更改这个密钥
+const SECRET_KEY = process.env.VITE_SECRET_KEY || 'your-secret-key-2024';
 
 export const encrypt = (data: any): string => {
   return CryptoJS.AES.encrypt(JSON.stringify(data), SECRET_KEY).toString();
