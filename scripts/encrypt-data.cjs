@@ -1,6 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const CryptoJS = require('crypto-js');
+require('dotenv').config({
+  path: process.env.NODE_ENV === 'production' 
+    ? path.resolve(process.cwd(), '.env.production')
+    : path.resolve(process.cwd(), '.env.development')
+});
 
 const SECRET_KEY = process.env.VITE_SECRET_KEY || 'your-secret-key-2024';
 

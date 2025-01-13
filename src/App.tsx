@@ -11,30 +11,57 @@ function App() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [activeCategory, setActiveCategory] = useState<string>('');
 
-  // 加载并解密数据
+  // 加载数据
   useEffect(() => {
-    fetch('/sites.encrypted.json')
-      .then(res => res.text())
-      .then(encryptedData => {
-        const decryptedData = decrypt(encryptedData);
-        setCategories(decryptedData.categories);
-        if (decryptedData.categories.length > 0) {
-          setActiveCategory(decryptedData.categories[0].id);
-        }
-      })
-      .catch(console.error);
+    const isDevelopment = process.env.NODE_ENV === 'development';
+    
+    if (isDevelopment) {
+      // 开发环境直接加载源文件
+      import('./data/sites.json')
+        .then(data => {
+          setCategories(data.categories);
+          if (data.categories.length > 0) {
+            setActiveCategory(data.categories[0].id);
+          }
+        })
+        .catch(console.error);
+    } else {
+      // 生产环境加载加密文件
+      fetch('/sites.encrypted.json')
+        .then(res => {
+          return res.text();
+        })
+        .then(encryptedData => {
+          const decryptedData = decrypt(encryptedData);
+          setCategories(decryptedData.categories);
+          if (decryptedData.categories.length > 0) {
+            setActiveCategory(decryptedData.categories[0].id);
+          }
+        })
+        .catch(console.error);
+    }
   }, []);
 
   // 搜索处理函数
   const handleSearch = (keyword: string) => {
     if (!keyword.trim()) {
-      fetch('/sites.encrypted.json')
-        .then(res => res.text())
-        .then(encryptedData => {
-          const decryptedData = decrypt(encryptedData);
-          setCategories(decryptedData.categories);
-        })
-        .catch(console.error);
+      const isDevelopment = process.env.NODE_ENV === 'development';
+      
+      if (isDevelopment) {
+        import('./data/sites.json')
+          .then(data => {
+            setCategories(data.categories);
+          })
+          .catch(console.error);
+      } else {
+        fetch('/sites.encrypted.json')
+          .then(res => res.text())
+          .then(encryptedData => {
+            const decryptedData = decrypt(encryptedData);
+            setCategories(decryptedData.categories);
+          })
+          .catch(console.error);
+      }
       return;
     }
 
