@@ -6,16 +6,4 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://ai-nav-site.vercel.app/about</loc>
-    <lastmod>2025-01-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ai-nav-site.vercel.app/feedback</loc>
-    <lastmod>2025-01-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
 </urlset> 
