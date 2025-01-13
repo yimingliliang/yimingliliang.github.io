@@ -6,89 +6,144 @@ import { Category } from './types';
 import './App.css';
 import { decrypt } from './utils/crypto';
 import { Analytics } from '@vercel/analytics/react';
+import { 
+  isBot, 
+  isAutomated, 
+  checkRequestLimit, 
+  disableDevTools, 
+  disableCopy 
+} from './utils/antiCrawler';
 
 function App() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [activeCategory, setActiveCategory] = useState<string>('');
 
+  // 初始化反爬措施
+  useEffect(() => {
+    const isDevelopment = process.env.NODE_ENV === 'development';
+    const isAntiCrawlerEnabled = import.meta.env.VITE_ENABLE_ANTI_CRAWLER === 'true';
+
+    if (!isDevelopment && isAntiCrawlerEnabled) {
+      // 检查自动化工具
+      if (isAutomated()) {
+        document.body.innerHTML = '检测到自动化测试工具';
+        return;
+      }
+
+      // 启用反爬措施
+      disableDevTools();
+      disableCopy();
+    }
+  }, []);
+
   // 加载数据
   useEffect(() => {
     const isDevelopment = process.env.NODE_ENV === 'development';
+    const isAntiCrawlerEnabled = import.meta.env.VITE_ENABLE_ANTI_CRAWLER === 'true';
     
-    if (isDevelopment) {
-      // 开发环境直接加载源文件
-      import('./data/sites.json')
-        .then(data => {
+    const loadData = async () => {
+      try {
+        // 在生产环境且启用反爬时进行检查
+        if (!isDevelopment && isAntiCrawlerEnabled) {
+          if (isBot()) {
+            throw new Error('检测到爬虫行为');
+          }
+
+          const cooldownUntil = parseInt(localStorage.getItem('cooldown') || '0');
+          if (Date.now() < cooldownUntil) {
+            throw new Error('请求过于频繁，请稍后再试');
+          }
+
+          checkRequestLimit();
+        }
+
+        if (isDevelopment) {
+          // 开发环境直接加载源文件
+          const data = await import('./data/sites.json');
           setCategories(data.categories);
           if (data.categories.length > 0) {
             setActiveCategory(data.categories[0].id);
           }
-        })
-        .catch(console.error);
-    } else {
-      // 生产环境加载加密文件
-      fetch('/sites.encrypted.json')
-        .then(res => {
-          return res.text();
-        })
-        .then(encryptedData => {
+        } else {
+          // 生产环境加载加密文件
+          const res = await fetch('/sites.encrypted.json');
+          const encryptedData = await res.text();
           const decryptedData = decrypt(encryptedData);
           setCategories(decryptedData.categories);
           if (decryptedData.categories.length > 0) {
             setActiveCategory(decryptedData.categories[0].id);
           }
-        })
-        .catch(console.error);
-    }
+        }
+      } catch (error) {
+        console.error('加载数据失败:', error);
+        // 可以在这里添加错误提示UI
+      }
+    };
+
+    loadData();
   }, []);
 
   // 搜索处理函数
-  const handleSearch = (keyword: string) => {
-    if (!keyword.trim()) {
+  const handleSearch = async (keyword: string) => {
+    try {
       const isDevelopment = process.env.NODE_ENV === 'development';
+      const isAntiCrawlerEnabled = import.meta.env.VITE_ENABLE_ANTI_CRAWLER === 'true';
+
+      // 在生产环境且启用反爬时进行检查
+      if (!isDevelopment && isAntiCrawlerEnabled) {
+        if (isBot()) {
+          throw new Error('检测到爬虫行为');
+        }
+
+        const cooldownUntil = parseInt(localStorage.getItem('cooldown') || '0');
+        if (Date.now() < cooldownUntil) {
+          throw new Error('请求过于频繁，请稍后再试');
+        }
+
+        checkRequestLimit();
+      }
+
+      if (!keyword.trim()) {
+        if (isDevelopment) {
+          const data = await import('./data/sites.json');
+          setCategories(data.categories);
+        } else {
+          const res = await fetch('/sites.encrypted.json');
+          const encryptedData = await res.text();
+          const decryptedData = decrypt(encryptedData);
+          setCategories(decryptedData.categories);
+        }
+        return;
+      }
+
+      const filteredCategories = categories.map(category => ({
+        ...category,
+        sites: category.sites.filter(site => 
+          site.title.toLowerCase().includes(keyword.toLowerCase()) ||
+          site.description?.toLowerCase().includes(keyword.toLowerCase()) ||
+          site.tags?.some(tag => tag.toLowerCase().includes(keyword.toLowerCase()))
+        )
+      })).filter(category => category.sites.length > 0);
+
+      setCategories(filteredCategories);
       
-      if (isDevelopment) {
-        import('./data/sites.json')
-          .then(data => {
-            setCategories(data.categories);
-          })
-          .catch(console.error);
-      } else {
-        fetch('/sites.encrypted.json')
-          .then(res => res.text())
-          .then(encryptedData => {
-            const decryptedData = decrypt(encryptedData);
-            setCategories(decryptedData.categories);
-          })
-          .catch(console.error);
+      if (filteredCategories.length > 0) {
+        setActiveCategory(filteredCategories[0].id);
+        const element = document.querySelector(`[data-category-id="${filteredCategories[0].id}"]`);
+        if (element) {
+          const headerOffset = 84;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.scrollY - headerOffset;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
       }
-      return;
-    }
-
-    const filteredCategories = categories.map(category => ({
-      ...category,
-      sites: category.sites.filter(site => 
-        site.title.toLowerCase().includes(keyword.toLowerCase()) ||
-        site.description?.toLowerCase().includes(keyword.toLowerCase()) ||
-        site.tags?.some(tag => tag.toLowerCase().includes(keyword.toLowerCase()))
-      )
-    })).filter(category => category.sites.length > 0);
-
-    setCategories(filteredCategories);
-    
-    if (filteredCategories.length > 0) {
-      setActiveCategory(filteredCategories[0].id);
-      const element = document.querySelector(`[data-category-id="${filteredCategories[0].id}"]`);
-      if (element) {
-        const headerOffset = 84;
-        const elementPosition = element.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.scrollY - headerOffset;
-        
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-      }
+    } catch (error) {
+      console.error('搜索失败:', error);
+      // 可以在这里添加错误提示UI
     }
   };
 
