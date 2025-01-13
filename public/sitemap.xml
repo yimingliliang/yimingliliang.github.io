@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gly-hub.github.io/ai-nav-site/</loc>
+    <loc>https://ai-nav-site.vercel.app</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gly-hub.github.io/ai-nav-site/about</loc>
+    <loc>https://ai-nav-site.vercel.app/about</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gly-hub.github.io/ai-nav-site/feedback</loc>
+    <loc>https://ai-nav-site.vercel.app/feedback</loc>
     <lastmod>2025-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

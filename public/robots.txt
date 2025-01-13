@@ -58,7 +58,7 @@ Allow: /*.png$
 Allow: /*.webp$
 
 # Sitemap
-Sitemap: https://gly-hub.github.io/ai-nav-site/sitemap.xml
+Sitemap: https://ai-nav-site.vercel.app/sitemap.xml
 
 # Host
-Host: https://gly-hub.github.io/ai-nav-site 
+Host: https://ai-nav-site.vercel.app
